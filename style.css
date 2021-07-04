@@ -1,0 +1,45 @@
+body{
+    background-image: url("Фон.jpg"); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+img{
+    width: 100%;
+    /* object-fit: cover; */
+}
+div{
+    background-color: rgb(57, 236, 183);
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px -10px 20px purple;
+}
+h1{font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #f12ce8;
+}
+h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;  
+}
+a{
+    background-color:gold;
+    border-radius: 7px; 
+    display: inline-block;
+    line-height: 40px;                  
+padding-left: 30px; 
+padding-right: 30px;
+margin-top: 15px;
+margin-bottom: 15px;
+color: rgb(0, 47, 255); 
+box-shadow:0 0 15px #f102e5; 
+ text-decoration: none;
+ border: 1px solid transparent;  
+ transition:  0.3s ; 
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ }
+    /* надо что бы кнопки(Скачать) были другого цвета и свечение + */
+a:hover{
+    border: 1px solid  rgb(0, 47, 255); 
+}
+/* поставить шрифты на заголовки и кнопки */
